@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>India Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="logo">🌤 India Weather</div>
+      <p class="subtitle">Live weather across Indian cities</p>
+    </header>
+
+    <section class="search-section">
+      <div class="search-bar">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Search any city in India..." />
+        <button onclick="searchCity()">Search</button>
+      </div>
+    </section>
+
+    <section class="popular-label">Popular Cities</section>
+    <div class="grid" id="grid"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
